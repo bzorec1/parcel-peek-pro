@@ -20,8 +20,9 @@ Welcome to the Parcel Peek Pro repository. This project encompasses a comprehens
 To get started with Parcel Peek Pro:
 
 1. **Clone the Repository**
+```cmd
 git clone https://github.com/your-repository/parcel-peek-pro.git
-
+```
 2. **Navigate to a Project**
 - Each subdirectory (e.g., `core-backend`, `mobile-app`) contains its own README with specific instructions.
 3. **Follow the Setup Instructions**
