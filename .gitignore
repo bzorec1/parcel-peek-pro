@@ -1,0 +1,87 @@
+# Directories #
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+[Dd]ebug/
+[Rr]elease/
+[Pp]ackages/
+[Aa]rtifacts/
+[Tt]est[Rr]esults/
+
+# Files #
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.pidb
+*.psess
+*.vsp
+*.vspx
+*.vssscc
+*.vssscc.bak
+*.log
+*.vspscc
+*.vspscc.bak
+*.cache
+*.csproj.user
+*.vbproj.user
+*.suo
+*.sln.backup
+*.swp
+*.dll
+*.exe
+*.pdb
+*.olb
+*.tlb
+*.obj
+*.o
+*.ilk
+*.pch
+*.bak
+*.lck
+*.scc
+*.tmp
+*.mdf
+*.ldf
+*.dbmdl
+*.jfm
+*.log
+*.ipch
+*.tlog
+*.vsdisco
+*.dir
+*.sympath
+*.userprefs
+*.dbmdl
+*.[Cc]ache
+*.[Bb]ak
+*.[Tt]mp
+*.[Ll]og
+*.DS_Store
+
+# Visual Studio Code #
+.vscode/
+
+# Rider #
+.idea/
+
+# NuGet #
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+
+# ReSharper #
+_ReSharper*/
+*ReSharper*
+
+# User-specific files #
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# MonoDevelop/XamarinStudio #
+*.userprefs
