@@ -1,0 +1,30 @@
+﻿@implements IDisposable
+@inject SpinnerService SpinnerService
+
+@if (IsVisible)
+{
+    <div class="spinner-overlay">
+        <div class="spinner"></div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public bool IsVisible { get; set; }
+
+    protected override void OnInitialized()
+    {
+        SpinnerService.OnShow += ShowSpinner;
+    }
+
+    private void ShowSpinner(bool isVisible)
+    {
+        IsVisible = isVisible;
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        SpinnerService.OnShow -= ShowSpinner;
+    }
+}
